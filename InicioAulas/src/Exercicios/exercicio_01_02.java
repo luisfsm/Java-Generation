@@ -17,6 +17,7 @@ public class exercicio_01_02 {
 
 				mes = (idadeEmDias%diasDoAno)/30;
 				dia = (idadeEmDias%diasDoAno)%30;
+				sc.close();
 
 
 				System.out.printf("Sua Idade Atual : %d",idadeEmDias/diasDoAno);

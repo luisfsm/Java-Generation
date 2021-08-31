@@ -2,7 +2,7 @@ package Exercicios;
 
 import java.util.Scanner;
 
-public class exercicios_01_01 {
+public class exercicio_01_01 {
 
 	public static void main(String[] args) {
 		
@@ -20,6 +20,7 @@ public class exercicios_01_01 {
 		dias = sc.nextInt();
 		
 		dias += (idade*diasDoAno) + (meses*diaMes);
+		sc.close();
 		
 		System.out.printf("Sua idade em dias  %d:", dias);
 		
