@@ -3,7 +3,9 @@ package Exercicio_if;
 import java.util.Scanner;
 
 /*
- 2- Faça um programa que entre com três números e coloque em ordem crescente.
+ 
+ 	2- Faça um programa que entre com três números e coloque em ordem crescente.
+ 
  */
 
 public class exercicio_02 {
@@ -34,7 +36,6 @@ public class exercicio_02 {
 				valor1 = aux;
 			}
 		}
-		
 		System.out.println(valor1+" "+valor2+" "+valor3);
 		sc.close();
 	}

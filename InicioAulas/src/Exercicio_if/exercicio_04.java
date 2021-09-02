@@ -18,13 +18,11 @@ public class exercicio_04 {
 		
 		if(valorDigitado%2==0) {
 			System.out.println("O valor digitado é : "+valorDigitado+"  é par.");
-			System.out.println("A raíz quadrada é : "+Math.sqrt(valorDigitado));
+			System.out.printf("A raíz quadrada é : %.2f", Math.sqrt(valorDigitado));
 		}else {
 			System.out.println("O valor digitado é : "+valorDigitado+" é impar.");
-			System.out.println("O valor ao quadrado do valor é :"+Math.pow(valorDigitado, 2));
+			System.out.printf("O valor ao quadrado do valor é : %.2f",Math.pow(valorDigitado, 2));
 		}
-		
-		
 		
 		sc.close();
 
