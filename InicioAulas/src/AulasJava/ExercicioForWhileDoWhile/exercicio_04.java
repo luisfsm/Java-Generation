@@ -32,9 +32,17 @@ public class exercicio_04 {
 			System.out.println("Qual a sua idade : ");
 			idade = sc.nextInt();
 			
-			System.out.println("Qual o seu sexo ? ");
-			System.out.println("Digite: \n1-Feminino\n2-Masculino\n3-Outros");
+			
+			System.out.print("Qual o seu sexo ? Digite: 1-Feminino  2-Masculino  3-Outros : ");
 			opSexo = sc.nextInt();
+			
+			while(opSexo!=1 || opSexo!=2 || opSexo!=3) {
+				System.out.println("Opção invalida ... ");
+				System.out.println("Digite: \n1-Feminino\n2-Masculino\n3-Outros");
+				opSexo = sc.nextInt();
+				
+			}
+			
 			
 			System.out.println("Voce se considera uma pessoa :");
 			System.out.println("Digite: \n1-Calma(o)\n2-Nervosa(o)\n3-Agressiva(o)");
