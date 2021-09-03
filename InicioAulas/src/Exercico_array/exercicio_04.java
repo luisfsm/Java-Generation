@@ -16,6 +16,7 @@ public class exercicio_04 {
 		Scanner sc = new Scanner(System.in);
 		int op = 0 ;
 		final int linhas = 2, colunas = 2;
+		int constante ;
 		double M1[][] = new double[linhas][colunas];
 		double M2[][] = new double[linhas][colunas];
 		double M3[][] = new double[linhas][colunas];
@@ -32,7 +33,7 @@ public class exercicio_04 {
 	
 		
 		System.out.print("Menu de opções : \n1-Somar as matrizes\n2-Subtrair as matrizes\n3-Adicionar constantes \n4-Exibir as duas matrizes");
-		System.out.print("Entre com o numero : ");
+		System.out.print("\nEntre com o numero : ");
 		op = sc.nextInt();
 		switch(op) {
 		
@@ -55,6 +56,16 @@ public class exercicio_04 {
 		
 		case 3 : 
 			
+			System.out.print("qual a constante ?");
+			constante = sc.nextInt();
+			for(int i = 0 ; i < linhas ; i++) {
+				for(int j = 0; j<colunas;j++) {
+					
+					System.out.println("O valor da M1 sem a constante é: "+M1[i][j]+" com a constante = "+(M1[i][j] += constante) );
+					System.out.println("O valor da M2 sem a constante é: "+M1[i][j]+" com a constante = "+(M2[i][j] += constante) );
+				}
+			}
+			
 		break;
 		
 		case 4 :
@@ -72,8 +83,6 @@ public class exercicio_04 {
 			}
 			break;
 		}
-		
-		
 		sc.close();
 	}
 
