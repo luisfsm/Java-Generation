@@ -32,6 +32,7 @@ public class exercicio_04 {
 	
 		
 		System.out.print("Menu de opções : \n1-Somar as matrizes\n2-Subtrair as matrizes\n3-Adicionar constantes \n4-Exibir as duas matrizes");
+		System.out.print("Entre com o numero : ");
 		op = sc.nextInt();
 		switch(op) {
 		
