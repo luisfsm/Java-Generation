@@ -11,8 +11,9 @@ public class Animal {
 	
 	private String nome;
 	private int idade;
-	private String urlAudio="E:\\\\WORKSPACE\\\\Generation\\\\Java_primeiro_modulo\\\\InicioAulas\\\\src\\\\AulasJava\\\\Poo_Heranca\\\\";
 	
+		
+	private String urlAudio="E:\\\\WORKSPACE\\\\Generation\\\\Java_primeiro_modulo\\\\InicioAulas\\\\src\\\\AulasJava\\\\Poo_Heranca\\\\";
 	
 	public void EmitirSom(String animal) throws Exception {
 		
@@ -23,12 +24,14 @@ public class Animal {
 		File file = new File(urlFinal);
 		try {
 			Scanner sc = new Scanner(System.in);
+			
+			
 			AudioInputStream audioStream = AudioSystem.getAudioInputStream(file);
 			Clip clip = AudioSystem.getClip();
 			clip.open(audioStream);
 			clip.start();
 			
-			String response = sc.next();
+			String response = sc.nextLine();
 		   }catch (Exception e) {
 			
 			e.printStackTrace();
@@ -52,19 +55,17 @@ public class Animal {
 	public String getNome() {
 		return nome;
 	}
+	
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
+	
 	public int getIdade() {
 		return idade;
 	}
+	
 	public void setIdade(int idade) {
 		this.idade = idade;
 	}
 	
-	
-	
-	
-	
-
 }

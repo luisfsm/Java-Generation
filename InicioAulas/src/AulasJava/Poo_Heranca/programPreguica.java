@@ -1,6 +1,7 @@
 package AulasJava.Poo_Heranca;
 
 
+
 public class programPreguica {
 
 	public static void main(String[] args) throws Exception {

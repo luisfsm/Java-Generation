@@ -7,9 +7,9 @@ public class programCachorro {
 		Cachorro cachorro = new Cachorro("Cachorro de madame",10);
 		
 		cachorro.imprimirInfo();
-		cachorro.EmitirSom("cachorro");
 		cachorro.deveCorrer();
+		cachorro.EmitirSom("cachorro");
+		
 	}
-	
 
 }
