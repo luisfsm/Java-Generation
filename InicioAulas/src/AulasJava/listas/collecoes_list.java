@@ -23,6 +23,8 @@ public class collecoes_list {
 		produtosEmEstoque.add("Vinho");
 		
 		
+		
+		
 		do {
 			System.out.println(" 1 - Adicionar ao estoque");
 			System.out.println(" 2 - remover do estoque");
@@ -81,39 +83,6 @@ public class collecoes_list {
 		
 			
 		}while(op!=0);
-		
-		
-		
-		/*List<Integer> minhaLista = new ArrayList<Integer>();
-
-		minhaLista.add(1);
-		minhaLista.add(2);
-		minhaLista.add(3);
-		minhaLista.add(4);
-		minhaLista.add(5);
-		minhaLista.add(6);
-		
-		for(Integer listaElementos : minhaLista) {
-			System.out.println(listaElementos);
-		}
-		
-		Collections.sort(minhaLista);
-		
-		System.out.println();
-		Set<Integer> meuSet = new HashSet<Integer>();
-		
-		meuSet.add(3);
-		meuSet.add(2);
-		meuSet.add(1);
-		meuSet.add(0);
-		meuSet.add(3);
-		meuSet.add(2);
-		*//*
-		Iterator <Integer> imeuSet = meuSet.iterator();
-		
-		while(imeuSet.hasNext()) {
-			System.out.println(imeuSet.next());
-		}*/
 		leia.close();
 	}
 }
