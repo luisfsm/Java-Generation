@@ -9,6 +9,7 @@ import javax.sound.sampled.Clip;
 
 public class Animal {
 	
+	
 	private String nome;
 	private int idade;
 	
@@ -37,6 +38,7 @@ public class Animal {
 			e.printStackTrace();
 		   } 
 		}
+	
 	public void deveCorrer() {
 		System.out.println("Estou correndo !!!");
 	}
